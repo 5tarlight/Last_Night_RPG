@@ -1,0 +1,21 @@
+name: LNRPG
+version: 5.0
+main: plugin.Main
+author: Starlight
+
+commands:
+  help:
+    description: "도움말을 출력합니다."
+    aliases: ["도움말", "도움"]
+  stat:
+    description: "스텟관련 명령어입니다."
+    aliases: ["스텟"]
+  setstat:
+    description: "스텟을 설정합니다. op가 필요합니다"
+    aliases: ["스텟설정", "셋스텟"]
+  starlight:
+    description: "스타라이트가 만든 이스터 에그 커맨드입니다."
+    aliases: ["스타라이트", "별빛"]
+  upgrade:
+    description: "돈 스텟값을 사용해서 다른 스탯값을 높이는 명령어입니다."
+    aliases: ["업그레이드"]
